@@ -1,0 +1,30 @@
+Sample run output for the cross-validation performance of each dataset:
+
+$ python3 classify_chems.py ~/Downloads/trainingTableForDermal.tsv 
+trainingTableForDermal.tsv training set dimensions:
+(93, 26357)
+[0.85263158 0.92176387 0.97142857 1.         1.        ]
+-------------------------------------------------------------------  
+Mean weighted F1-score: 0.949165
+Std weighted F1-score: 0.056096
+-------------------------------------------------------------------  
+
+
+$ python3 classify_chems.py ~/Downloads/trainingTableForInhalation.tsv 
+trainingTableForInhalation.tsv training set dimensions:
+(84, 26261)
+[0.84538269 0.89042676 0.88340336 1.         1.        ]
+-------------------------------------------------------------------  
+Mean weighted F1-score: 0.923843
+Std weighted F1-score: 0.064043
+-------------------------------------------------------------------  
+
+
+$ python3 classify_chems.py ~/Downloads/trainingTableForOral.tsv 
+trainingTableForOral.tsv training set dimensions:
+(97, 26354)
+[0.92933948 1.         1.         0.96666667 0.96949891]
+-------------------------------------------------------------------  
+Mean weighted F1-score: 0.973101
+Std weighted F1-score: 0.026140
+-------------------------------------------------------------------  

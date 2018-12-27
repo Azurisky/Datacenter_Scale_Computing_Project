@@ -1,0 +1,9 @@
+web:
+  build: .
+  command: python load_data.py
+  volumes:
+    - .:/load_data
+  links:
+    - db
+db:
+  image: mongo
